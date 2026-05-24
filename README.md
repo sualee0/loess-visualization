@@ -9,10 +9,10 @@ LOESS fits a smooth curve by performing weighted least squares regression locall
 For each evaluation point c, the algorithm: isolates the local window → applies a weight function → builds the design matrix for 1st or 2nd order fit → solves weighted least squares → records the fitted value at c.
 
 ## Scenarios Explored
-1st vs. 2nd order polynomial fits
-Cubic vs. uniform weight functions
-Window width: small (overfitting) vs. large (underfitting)
-Edge effects at data boundaries
+- 1st vs. 2nd order polynomial fits
+- Cubic vs. uniform weight functions
+- Window width: small (overfitting) vs. large (underfitting)
+- Edge effects at data boundaries
 
 ## Tools
 Julia (implementation)
