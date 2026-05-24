@@ -15,5 +15,5 @@ For each evaluation point c, the algorithm: isolates the local window → applie
 - Edge effects at data boundaries
 
 ## Tools
-Julia (implementation)
-ImageTank (visualization + implementation)
+- Julia (implementation)
+- ImageTank (visualization + implementation)
